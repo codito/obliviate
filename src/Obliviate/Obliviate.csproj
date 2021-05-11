@@ -10,4 +10,9 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="MathNet.Numerics" Version="4.15.0" />
+    <PackageReference Include="Microsoft.ML.Probabilistic" Version="0.3.2102.1701" />
+  </ItemGroup>
+
 </Project>
