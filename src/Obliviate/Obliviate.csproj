@@ -8,6 +8,18 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
+
+    <Authors>codito</Authors>
+    <Description>
+      A collection of algorithms to model memory and retention. Useful for
+      quiz and review apps based on spaced repetition.
+    </Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageTags>Math;Probability;Algorithms;Spaced Repetition</PackageTags>
+    <RepositoryUrl>https://github.com/codito/obliviate</RepositoryUrl>
+
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
   </PropertyGroup>
 
   <ItemGroup>
