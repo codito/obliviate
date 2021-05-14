@@ -2,9 +2,9 @@
 
 A collection of algorithms to model memory and retention of facts.
 
-<!--
 [![Build Status](https://github.com/spekt/testlogger/workflows/.NET/badge.svg)](https://github.com/spekt/testlogger/actions?query=workflow%3A.NET)
 [![NuGet](https://img.shields.io/nuget/v/Obliviate.svg)](https://www.nuget.org/packages/Obliviate/)
+<!--
 [![NuGet Downloads](https://img.shields.io/nuget/dt/Obliviate)](https://www.nuget.org/packages/Obliviate/)
 -->
 
