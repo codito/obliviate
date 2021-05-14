@@ -54,7 +54,7 @@ jobs:
           dotnet pack --configuration Release --output src/Obliviate/bin/pack
           ls -l src/Obliviate/bin/pack
       - name: Publish to nuget
-        run: dotnet nuget push */bin/pack/*.nupkg -k $NUGET_AUTH_TOKEN -s https://api.nuget.org/v3/index.json
+        run: dotnet nuget push src/Obliviate/bin/pack/*.nupkg -k $NUGET_AUTH_TOKEN -s https://api.nuget.org/v3/index.json
         env:
           NUGET_AUTH_TOKEN: ${{ secrets.NUGET_TOKEN }}
       - name: Create Release
